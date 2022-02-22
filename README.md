@@ -27,6 +27,6 @@ I am Giska. I am a beginner Frontend.
   </a>
 </p>
 
-#### 📫 How to reach me
+#### How to reach me
 - Email: [`Click To Mail!`](mailto:giskahalla123@gmail.com) or copy **`giskahalla123@gmail.com`**
 
