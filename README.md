@@ -14,7 +14,7 @@ I am Giska. I am a beginner Frontend.
 <img alt="choubari" src="https://devstickers.com/assets/img/pro/i4eg.png" width="40">
   </a>
  <a href="https://www.figma.com/">
-<img alt="choubari" src="https://www.flaticon.com/free-icon/figma_5968705?related_id=5968701&origin=search" width="40">
+<img alt="choubari" src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="40">
   </a>
  <a href="https://code.visualstudio.com/">
 <img alt="choubari" src="https://devstickers.com/assets/img/pro/saxu.png" width="40">
