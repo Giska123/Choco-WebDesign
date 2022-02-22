@@ -29,5 +29,5 @@ I am Giska. I am a beginner Frontend.
 
 #### How to reach me
 - Email: [`Click To Mail!`](mailto:giskahalla123@gmail.com) or copy **`giskahalla123@gmail.com`**
-- LinkedIn: ['My Profile LinkedIn'](https://www.linkedin.com/in/giska-halla-643253188/)
+- LinkedIn: [`My Profile LinkedIn`](https://www.linkedin.com/in/giska-halla-643253188/)
 
