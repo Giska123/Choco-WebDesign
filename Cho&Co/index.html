@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<link>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        CHO&CO
+    </title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<link href="cssanimation/cssanimation.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div id="banner">
+            <nav>
+                <div class="home">
+                    <div class="c">
+                        <a href="#banner"><img src="Photo Asset/logo.png"></a>
+                    </div>
+                    
+                </div>
+            </nav>
+
+            <div class="home1">
+                <div class="cssanimation blurInBottom">
+                    <h1>CHOCOLATES</h1>
+                </div>
+            </div>
+
+            <div class="home2">
+                <a href="#about" style="text-decoration:none" onclick="scrollto('about');">ABOUT</a>
+                <a href="#shop" style="text-decoration:none"onclick="scrollto('shop');">SHOP</a>
+                <a href="#recipes" style="text-decoration:none" onclick="scrollto('recipe');">RECIPES</a> 
+            </div>
+
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-5">
+                <img src="Photo Asset/logo.png">
+            </div>
+
+            <div class="col-12 col-lg-7">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="down1">
+                <a href="#shop" onclick="scrollto('shop');"><i class="fas fa-chevron-down fa-fw"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    
+
+    <div id="shop">
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+
+            <div class="row g-0">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="cho1">
+
+                        <div class="cssanimation shockInBottom">
+                            <img src="cho&co/cho1.png">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="cho2">
+
+                        <div class="cssanimation shockInTop">
+                            <img src="cho&co/cho2.png">
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="cho3">
+
+                        <div class="cssanimation shockInBottom">
+                            <img src="cho&co/cho3.png">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="cho4">
+
+                        <div class="cssanimation shockInTop">
+                            <img src="cho&co/cho4.png">
+                        </div>
+                        
+                    </div>
+                </div> 
+        </div>    
+                <h5>CHOOSE YOUR CHOCOLATES</h5>
+
+                <button class="btn-shop" >
+                    <a href="#shopso" style="text-decoration:none"  onclick="scrollto('shopso');">SHOP NOW</a>
+                </button>     
+    </div>
+      
+
+    
+    <div id="shopso">
+    <div id="shopcho1" class="page"> 
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+        
+        <a class="back" id="toggle1b"><i class="fas fa-angle-left fa-fw"></i></a>
+
+            <div class="choco1">
+                <img src="Photo Asset/mint.png">
+            </div>
+              
+            <div class="choco2">
+                <img src="cho&co/cho_4.png">
+            </div>
+              
+            <div class="choco3">
+                <div class="d">
+                    <a id="togglecart1"><i class="fas fa-shopping-bag fa-3x"></i></a>
+                </div>
+                <span id="product__price"><h5>HANDMADE <br> MINT <br> CHOCOLATE</h5></span>
+                <button class="btn-cart" onclick="plus4(4)" data-action="ADD_TO_CART">ADD TO CART</button>
+                <img src="Photo Asset/coklat1.png">
+
+            </div>
+            
+        <a class="next" id="toggle1a"><i class="fas fa-angle-right fa-fw"></i></a>
+    </div>
+
+    <div id="shopcho2" class="nodisplay">
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+
+            <a class="back" id="toggle2b"><i class="fas fa-angle-left fa-fw"></i></a>
+
+                <div class="choco1">
+                    <img src="Photo Asset/almon1.png">
+                </div>
+                
+                <div class="choco2">
+                    <img src="cho&co/cho_3.png">
+                </div>
+            
+                <div class="choco3">
+                    <div class="d">
+                        <a id="togglecart2"><i class="fas fa-shopping-bag fa-3x"></i></a>
+                    </div>
+                    <h5>HANDMADE <br> ALMOND <br> CHOCOLATE</h5>
+                    <button class="btn-cart" onclick="plus3(4)">ADD TO CART</button>
+                    <img src="Photo Asset/coklat1.png">
+
+                </div>
+                
+            <a class="next" id="toggle2a"><i class="fas fa-angle-right fa-fw"></i></a>
+    </div>
+
+
+    <div id="shopcho3" class="nodisplay">
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+
+            <a class="back" id="toggle3b"><i class="fas fa-angle-left fa-fw"></i></a>
+
+                <div class="choco1">
+                    <img src="Photo Asset/hazel.png">
+                </div>
+                
+                <div class="choco2">
+                    <img src="cho&co/cho_2.png">
+                </div>
+            
+                <div class="choco3">
+                    <div class="d">
+                        <a id="togglecart3"><i class="fas fa-shopping-bag fa-3x"></i></a>
+                    </div>
+                    <h5>HANDMADE <br> HAZELNUT <br> CHOCOLATE</h5>
+                    <button class="btn-cart" onclick="plus2(4)">ADD TO CART</button>
+                    <img src="Photo Asset/coklat1.png">
+                </div>
+
+            <a class="next" id="toggle3a"><i class="fas fa-angle-right fa-fw"></i></a>
+
+    </div>
+
+
+    <div id="shopcho4" class="nodisplay">
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+
+            <a class="back" id="toggle4b"><i class="fas fa-angle-left fa-fw"></i></a>
+
+                <div class="choco1">
+                    <img src="Photo Asset/beri1.png">
+                </div>
+                
+                <div class="choco2">
+                    <img src="cho&co/cho.png">
+                </div>
+            
+                <div class="choco3">
+                    <div class="d">
+                        <a id="togglecart4"><i class="fas fa-shopping-bag fa-3x"></i></a>
+                    </div>
+                    <h5>HANDMADE <br> BLUEBERRY <br> CHOCOLATE</h5>
+                    <button class="btn-cart" onclick="plus1(4)">ADD TO CART</button>
+                    <img src="Photo Asset/coklat1.png">
+                </div>
+
+            <a class="next" id="toggle4a"><i class="fas fa-angle-right fa-fw"></i></a>
+    </div>
+
+
+    <div id="cart" class="nodisplay">
+        <div class="cart1">
+
+                <h4>SHOPPING CART</h4>
+                <div class="border-bottom"></div>
+
+                        <div class="border-bottom">
+                        <div class="cart-item">
+                            <div class="item">
+                                <img src="cho&co/cho4.png">
+                                <h5>Blueberry</h5>
+                            </div>
+
+                            <div class="counter">
+                                <div class="bg">
+                                    <button class="btn" onclick="minus1(4)">-</button>
+                                    <div id="con1" class="count">0</div>
+                                    <button class="btn add" onclick="plus1(4)" >+</button>
+                                </div>
+                                <div class="amount" id="price">$4.00</div>
+                            </div>
+                        </div>
+                        </div>
+            
+                        <div class="border-bottom">
+                        <div class="cart-item">
+                            <div class="item">
+                                <img src="cho&co/cho3.png">
+                                <h5>Hazelnut</h5>
+                            </div> 
+                            <div class="counter">
+                                <div class="bg">
+                                    <button class="btn" onclick="minus2(4)">-</button>
+                                    <div id="con2" class="count">0</div>
+                                    <button class="btn add" onclick="plus2(4)" >+</button>
+                                </div>
+                                <div class="amount" id="price">$4.00</div>
+                            </div>
+                        </div>
+                        </div>
+
+
+                        <div class="border-bottom">
+                        <div class="cart-item">
+                            <div class="item">
+                                <img src="cho&co/cho2.png">
+                                <h5>Almond</h5>
+                            </div>
+                                    
+                            <div class="counter">
+                                <div class="bg">
+                                    <button class="btn less" onclick="minus3(4)">-</button>
+                                    <div id="con3" class="count">0</div>
+                                    <button class="btn add" onclick="plus3(4)" >+</button>
+                                </div>
+                                    <div class="amount" id="price">$4.00</div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="border-bottom">
+                        <div class="cart-item">
+                            <div class="item">
+                                <img src="cho&co/cho1.png">
+                                <h5>Mint</h5>
+                            </div>
+                                    
+                            <div class="counter">
+                                <div class="bg">
+                                    <button class="btn" onclick="minus4(4)">-</button>
+                                    <div id="con4" class="count">0</div>
+                                    <button class="btn add" onclick="plus4(4)" >+</button>
+                                </div>
+                                    <div class="amount" id="price">$4.00</div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+   
+                <div class="cart2">
+
+                    <div class="e">
+                        <a id="shpco1"><i class="fas fa-arrow-right fa-fw" ></i></a>
+                    </div>
+
+                    <h4>SUMMARY</h4>
+                    <div class="border-bottom"></div>
+
+                    <div class="shopcart">
+
+                            <div class="col-12">
+                                <label class="form-label">Name</label>
+                                <input type="Name" class="form-control">
+                            </div>
+
+                            <div class="col-12">
+                                <label class="form-label">Address</label>
+                                <input type="Name" class="form-control">
+                            </div>
+
+                            <div class="payment-info">
+                                <label class="radio"> <input type="radio" name="card" value="payment"> <span><img src="https://img.icons8.com/officel/48/000000/visa.png" /></span> </label>
+                                <label class="radio"> <input type="radio" name="card" value="payment"> <span><img src="https://img.icons8.com/ultraviolet/48/000000/amex.png" /></span> </label>
+                                <label class="radio"> <input type="radio" name="card" value="payment"> <span><img src="https://img.icons8.com/officel/48/000000/paypal.png" /></span> </label>
+                            </div>
+                            
+                                <div class="d-flex information shipping"><span>*shipping</span>&nbsp;=&nbsp;$4.00&nbsp;and&nbsp;tax&nbsp;=&nbsp;$0.06</div>
+                            <hr class="line">
+                                <div class="d-flex total"><span>Total</span><div class="total-value">$</div><div id="totalvalue">4</div>.06</div>
+
+                    </div>
+
+                            <button class="btn-buy">CHECKOUT</button>
+
+                </div>
+    </div>
+    </div>
+
+
+    <div id="recipes">
+
+        <div class="c">
+            <a href="#banner"><img src="Photo Asset/logo.png"></a>
+        </div>
+
+        <h3>RECIPES</h3>
+
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-3 g-3">
+
+                    <div class="col">
+                        <a href="#menu1" style="text-decoration:none">
+
+                            <div class="card">
+                                <img src="Photo Asset/cooki.jpg" class="card-img-top">    
+                            <div class="card-body">
+                                <p class="card-text">Chocolate Cookies Chip</p>
+                            </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#banner" style="text-decoration:none">
+
+                            <div class="card" >
+                                <img src="Photo Asset/cake.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Molten Chocolate Cakes</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#banner" style="text-decoration:none">
+
+                            <div class="card" >
+                                <img src="Photo Asset/puding.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Chocolate Pudding Whipped Cream</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+
+  
+    <div class="c">
+        <a href="#recipes"><img src="Photo Asset/logo.png"></a>
+    </div>
+
+    <div id="menu1">
+        
+        
+        <div class="title"><h4>Chocolate Cookies Chip</h4></div>
+        
+            <div class="row g-0">
+
+                <div class="col-12 col-lg-4">
+                <div class="text1">
+                    <p><h5>INGRIDIENTS</h5> <br> 2 cups unsalted butter, room temperature <br> 3 1/2 cups brown sugar 
+                    <br> 2 large eggs <br>2 teaspoons vanilla extract <br>3 1/4 cups all-purpose flour <br>1 cup dark cocoa powder 
+                    <br>1–2 tablespoons espresso powder (optional) <br>1 1/2 teaspoon baking soda <br>1 teaspoon salt Extra sugar for rolling 
+                    <br>1 teaspoon ground cardamom (optional)</p>
+                </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                <div class="text2">
+                    <p><h5>INSTRUCTION</h5> <br> 1. Preheat oven to 350. In the bowl of a stand mixer, cream butter and sugar until fluffy and light. Add eggs and vanilla, mixing gently until just combined.
+                        <br> 2. Add flour, cocoa powder, espresso powder, baking soda, and salt. Mix until combined into a soft dough.
+                        <br> 3. Form into balls (about ¼ cup per cookie / ball). Roll each ball in the extra sugar (mixed with cardamom, if you want). Bake for 10-12 minutes (I recommend 6-8 at a time on the baking sheet, so you’ll need to bake in batches). Remove from oven and let them rest – you want the cookies settle down a bit and give you crisped edges with thicker, soft-baked centers.
+                    </p>
+                </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                <div class="pic">
+
+                    <div class="e"><img src="Photo Asset/cooki2.png"></div>
+                </div>
+                </div>
+
+            </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="footer">
+                <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+                <a href="#">Cho&Co</a>.
+                    <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fab fa-instagram"></i></a></li>   
+                    </ul>
+                </p> 
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="main.js" type="text/javascript" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

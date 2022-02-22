@@ -1,0 +1,1429 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400&display=swap');
+
+body { 
+    margin:0; 
+    padding:0; 
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+html, body {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,a {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+a:hover {
+    color: white;
+}
+
+/*header*/
+        .menu-icon {
+            line-height: 60px;
+            width: 100%;
+            background: #000;
+            text-align: right;
+            box-sizing: border-box;
+            padding: 15px 24px;
+            cursor: pointer;
+            color: #fff;
+            display: none;
+        }
+
+/*home*/
+
+        #banner {
+            background: 
+            linear-gradient(
+        rgba(0, 0, 0, 0.28),
+        rgba(0, 0, 0, 0.28)),
+            url(cho&co/Cho&co\ \(13\).jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        .home {
+            display: flex;
+            justify-content: space-between;
+        }
+        .c {
+            position: absolute;
+            margin-top: 2.5vw;
+            margin-left: 4vw;
+            z-index: 1;
+        }
+
+        .c img {
+            width: auto;
+            height: 3.5vw;
+            z-index: 1;
+        }
+
+            @media screen and (max-width: 992px) {
+                .c {
+                    margin-top: 3.3vh;
+                    margin-left: 2.6vh;
+                }
+                
+                .c img {
+                    height: 6vw;
+                }
+
+            }
+
+            @media screen and (max-width: 600px) {
+                .c {
+                    margin-top: 3vh;
+                    margin-left: 2.3vh;
+                }
+
+                .c img {
+                    height: 5.5vw;
+                }
+
+            }
+
+
+        .home1 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .home1 h1{
+            color: white;
+            font-size: 6vw;
+            letter-spacing: 0.5vw;
+            line-height: 28vw;
+        }
+
+        .home2 {
+            position: absolute;
+            left: 50%;
+            top: 90vh;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .home2 a {
+            color: black;
+            font-size: 2vw;
+            font-weight: bold;
+            letter-spacing: 0.4vw;
+            padding-left: 3vw;
+            padding-right: 3vw;
+        }
+
+        .home2 a:hover {
+            color: white;
+        }
+            @media screen and (max-width: 992px) {
+                .home2 {
+                    left: 22%;
+                    transform: translate(-0%, -0%);
+                }
+
+                .home2 a {
+                    font-size: 3.2vw;
+                }
+            }
+
+/*about*/
+
+        #about {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #EFEFEF;
+        }
+
+        #about img {
+            width: auto;
+            height: 17vw;
+        }
+
+        #about p {
+            text-align: justify;
+            font-size: 1.5vw;
+        }
+
+        .down1 {
+            position: absolute;
+            left: 50%;
+            top: 90vh;
+            transform: translate(-50%, -50%);
+            font-size: 1.8em;
+            text-align: center;
+        }
+
+        .down1 a {
+            color: black;
+        }
+
+        .down1 a:hover {
+            color:rgb(31, 177, 187);
+        }
+
+    
+            @media screen and (max-width: 992px) {
+                .down1 {
+                    font-size: 1.3em;
+                }
+
+                #about img {
+                    margin-left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+        
+                #about p {
+                    margin: 0 15%;
+                    font-size: 2.3vw;
+
+                }
+
+            }
+
+            @media screen and (max-width: 768px) {
+                #about p {
+                    font-size: 2.7vw;
+
+                }
+            }
+
+/*shop*/
+
+        #shop {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+
+        #shop .c {
+            position: absolute;
+            padding-right: 16vw;
+            padding-bottom: 3.5vw;
+        }
+
+        #shop h5 {
+            position: relative;
+            margin-top: 36%;
+            color: black;
+            font-size: 2vw;
+            letter-spacing: 0.4vw;
+        }
+
+        .cssanimation img {
+            position: relative;
+            width: 100%;
+            height: 25vw;
+            margin-top: 38%;
+        }
+
+        .cho1 {
+            position: absolute;
+            background-color: #6abbac;
+            height: 100%;
+        }
+
+        .cho2 {
+            position: absolute;
+            background-color: #FF9D76;
+            height: 100%;
+        }
+        .cho3 {
+            position: absolute;
+            background-color: #EED344;
+            height: 100%;
+        }
+        .cho4 {
+            position: absolute;
+            background-color: #90C2E5;
+            height: 100%;
+        }
+        
+        .btn-shop {
+            position: relative;
+            margin-top: 2%;
+            border: black;
+            background-color: black;
+            color: white;
+            font-size: 1.4vw;
+            letter-spacing: 0.3vw;
+            padding: 0.5em 1em 0.5em 1em; 
+        }
+
+        .btn-shop a {
+            color: white;
+        }
+
+        .btn-shop:hover {
+            background-color: white;
+        }
+
+        .btn-shop a:hover {
+            color: black;
+        }
+
+
+            @media screen and (max-width: 992px) {
+                .cho1, .cho2, .cho3, .cho4 {
+                    position: relative;
+                    padding: 9% 0;
+                }
+
+                .cssanimation img {
+                    margin: auto;
+                    height: 30vw;
+                }
+                
+                #shop h5 {
+                    font-size: 3vw;
+                    margin-top: 5%;
+                }
+
+                .btn-shop {
+                    font-size: 2.2vw;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .cho1, .cho2, .cho3, .cho4 {
+                    padding: 3% 0;
+                }
+
+                .cssanimation img {
+                    height: 25vw;
+                }
+            }
+
+             
+            @media screen and (max-width: 600px) {
+                .cho1, .cho2, .cho3, .cho4 {
+                    padding: 5% 0;
+                }
+            }
+
+
+/*shopso*/
+
+        #shopso {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .nodisplay {
+            display: none;
+        }
+
+        .next {
+            color: #202020;
+            position: absolute;
+            right: 3%;
+            top: 50%;
+            font-size: 2.8em;
+        }
+
+        .next:hover {
+            color: white;
+        }
+
+        .back {
+            color: #202020;
+            position: absolute;
+            left: 3%;
+            top: 50%;
+            font-size: 2.8em;
+        }
+
+        .back:hover {
+            color: white;
+        }
+
+        #shopcho1 .back {
+            z-index: 1;
+        }
+
+        #shopcho2 .back {
+            z-index: 2;
+        }
+
+        #shopcho3 .back {
+            z-index: 3;
+        }
+
+        #shopcho4 .back {
+            z-index: 4;
+        }
+
+        #shopso .d {
+            position: absolute;
+            margin-top: 2.5vw;
+            margin-right: 5vw;
+        }
+
+        #shopso .d a{
+            color: black;
+            z-index: 1;
+        }
+
+        #shopcho1 .d a:hover {
+            color: white;
+        }
+
+        #shopcho2 .d a:hover {
+            color: white;
+        }
+
+        #shopcho3 .d a:hover {
+            color: white;
+        }
+
+        #shopcho4 .d a:hover {
+            color: white;
+        }
+
+            @media screen and (max-width: 600px) {
+                #shopso .d {
+                    font-size: 1.2vh;
+                    margin-top: 3vh;
+                }
+
+                .next, .back { 
+                    font-size: 1.7em;
+                }
+            }
+        
+/*shopcho1*/
+
+        #shopcho1 {
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+            background: 
+            linear-gradient(
+            to bottom,
+        #6abbac 0%,
+        #6abbac 65%,
+        #ffffff 65%,
+        #ffffff 100%
+        );
+        }
+
+        #shopcho1 .choco1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        #shopcho1 .choco1 img {
+            width: 55vh;
+            transform: scaleX(-1);
+        }
+
+        #shopcho1 .choco2 {
+            padding-right: 5%;
+        }
+
+        #shopcho1 .choco2 img {
+            position: absolute;
+            width: 63%;
+            bottom: 20%;
+            left: 10%;
+        }
+        
+        #shopcho1 .choco3 img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+        }
+
+        #shopcho1 .choco3 h5 {
+            position: absolute;
+            top: 25%;
+            right: 13%;
+            letter-spacing: 0.3vh;
+            font-weight: 600;
+            font-size: 3vh;
+            text-align: end;
+        }
+
+        #shopcho1 .choco3 .d {
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+
+        .btn-cart {
+            position: absolute;
+            right: 13%;
+            top: 40%;
+            border: black;
+            background-color: black;
+            color: white;
+            font-size: 1.4vw;
+            font-weight: 500;
+            letter-spacing: 0.3vw;
+            padding: 0.5em 1em 0.5em 1em; 
+        }
+
+        .btn-cart:hover {
+            background-color: white;
+            color: black;
+        }
+            
+            @media screen and (max-width: 992px) {
+                #shopcho1 .choco3 h5 {       
+                    top: 20%;
+                    font-size: 2vh;
+                }
+
+                #shopcho1 .choco3 .d {
+                    top: 1%;
+                }
+
+                #shopcho1 .choco2 img {
+                    bottom: 28%;
+                    left: 7%;
+                    width: 85%;
+                }
+
+                #shopcho1 .choco1 img {
+                    width: 37vh;
+                }
+
+                .btn-cart {
+                    top: 30%;
+                    font-size: 1.7vh;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+
+                #shopcho1 .choco1 img {
+                    width: 35vh;
+                }
+
+                #shopcho1 .choco2 img {
+                    bottom: 30%;
+                    left: 7%;
+                    width: 90%;
+                }
+
+                #shopcho1 .choco3 .d {
+                    top: 0;
+                }
+
+                #shopcho1 .choco3 img {
+                    width: 38%;
+                }
+
+                #shopcho1 .choco3 h5 {
+                    top: 17%;
+                    font-size: 1.6vh;
+                }
+
+                .btn-cart {
+                    top: 25%;
+                    font-size: 1.3vh;
+                }
+            }
+
+/*shopcho2*/
+
+        #shopcho2
+        {
+            position: relative;
+            height: 100vh;
+            background: 
+            linear-gradient(
+            to bottom,
+        #FF9D76 0%,
+        #FF9D76 65%,
+        #ffffff 65%,
+        #ffffff 100%
+        );
+        }
+
+        
+        #shopcho2 .choco1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        #shopcho2 .choco1 img {
+            width: 32vh;
+        }
+
+        #shopcho2 .choco2 {
+            padding-right: 5%;
+        }
+
+        #shopcho2 .choco2 img {
+            position: absolute;
+            width: 63%;
+            bottom: 20%;
+            left: 10%;
+        }
+
+        #shopcho2 .choco3 img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+        }
+
+        #shopcho2 .choco3 h5 {
+            position: absolute;
+            top: 25%;
+            right: 13%;
+            letter-spacing: 0.3vh;
+            font-weight: 600;
+            font-size: 3vh;
+            text-align: end;
+        }
+
+        #shopcho2 .choco3 .d {
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+
+            @media screen and (max-width: 992px) {
+                #shopcho2 .choco3 h5 {       
+                    top: 20%;
+                    font-size: 2vh;
+                }
+
+                #shopcho2 .choco3 .d {
+                    top: 1%;
+                }
+
+                #shopcho2 .choco2 img {
+                    bottom: 28%;
+                    left: 7%;
+                    width: 85%;
+                }
+
+                #shopcho2 .choco1 img {
+                    width: 22vh;
+                }
+            }
+
+
+            @media screen and (max-width: 600px) {
+
+                #shopcho2 .choco1 img {
+                    width: 18vh;
+                }
+                
+                #shopcho2 .choco2 img {
+                    bottom: 30%;
+                    left: 7%;
+                    width: 90%;
+                }
+
+                #shopcho2 .choco3 .d {
+                    top: 0;
+                }
+
+                #shopcho2 .choco3 img {
+                    width: 38%;
+                }
+
+                #shopcho2 .choco3 h5 {
+                    top: 17%;
+                    font-size: 1.6vh;
+                }
+            }
+
+/*shopcho3*/
+
+        #shopcho3
+        {
+            position: relative;
+            height: 100vh;
+            background: 
+            linear-gradient(
+            to bottom,
+        #EED344 0%,
+        #EED344 65%,
+        #ffffff 65%,
+        #ffffff 100%
+        );
+        }
+
+        #shopcho3 .choco1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        #shopcho3 .choco1 img {
+            width: 43vh;
+        }
+
+        #shopcho3 .choco2 {
+            padding-right: 5%;
+        }
+
+        #shopcho3 .choco2 img {
+            position: absolute;
+            width: 63%;
+            bottom: 20%;
+            left: 10%;
+        }
+
+        #shopcho3 .choco3 img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+        }
+
+        #shopcho3 .choco3 h5 {
+            position: absolute;
+            top: 25%;
+            right: 13%;
+            letter-spacing: 0.3vh;
+            font-weight: 600;
+            font-size: 3vh;
+            text-align: end;
+        }
+
+        #shopcho3 .choco3 .d {
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+
+            @media screen and (max-width: 992px) {
+                #shopcho3 .choco3 h5 {       
+                    top: 20%;
+                    font-size: 2vh;
+                }
+
+                #shopcho3 .choco3 .d {
+                    top: 1%;
+                }
+
+                #shopcho3 .choco2 img {
+                    bottom: 28%;
+                    left: 7%;
+                    width: 85%;
+                }
+
+                #shopcho3 .choco1 img {
+                    width: 25vh;
+                }
+            }
+
+
+            @media screen and (max-width: 600px) {
+
+                #shopcho3 .choco1 img {
+                    width: 20vh;
+                }
+                
+                #shopcho3 .choco2 img {
+                    bottom: 30%;
+                    left: 7%;
+                    width: 90%;
+                }
+
+                #shopcho3 .choco3 .d {
+                    top: 0;
+                }
+
+                #shopcho3 .choco3 img {
+                    width: 38%;
+                }
+
+                #shopcho3 .choco3 h5 {
+                    top: 17%;
+                    font-size: 1.6vh;
+                }
+            }
+
+/*shopcho4*/
+
+        #shopcho4
+        {
+            position: relative;
+            height: 100vh;
+            background: 
+            linear-gradient(
+            to bottom,
+        #90C2E5 0%,
+        #90C2E5 65%,
+        #ffffff 65%,
+        #ffffff 100%
+        );
+        }
+
+        #shopcho4 .choco1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        #shopcho4 .choco1 img {
+            width: 47vh;
+        }
+
+        #shopcho4 .choco2 {
+            padding-right: 5%;
+        }
+
+        #shopcho4 .choco2 img {
+            position: absolute;
+            width: 63%;
+            bottom: 20%;
+            left: 10%;
+        }
+
+        #shopcho4 .choco3 img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 30%;
+        }
+
+        #shopcho4 .choco3 h5 {
+            position: absolute;
+            top: 25%;
+            right: 13%;
+            letter-spacing: 0.3vh;
+            font-weight: 600;
+            font-size: 3vh;
+            text-align: end;
+        }
+
+        #shopcho4 .choco3 .d {
+            position: absolute;
+            right: 0;
+            z-index: 1;
+        }
+
+            @media screen and (max-width: 992px) {
+                #shopcho4 .choco3 h5 {       
+                    top: 20%;
+                    font-size: 2vh;
+                }
+
+                #shopcho4 .choco3 .d {
+                    top: 1%;
+                }
+
+                #shopcho4 .choco2 img {
+                    bottom: 28%;
+                    left: 7%;
+                    width: 85%;
+                }
+
+                #shopcho4 .choco1 img {
+                    width: 26vh;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+
+                #shopcho4 .choco1 img {
+                    width: 20vh;
+                }
+                
+                #shopcho4 .choco2 img {
+                    bottom: 30%;
+                    left: 7%;
+                    width: 90%;
+                }
+
+                #shopcho1 .choco3 .d {
+                    top: 0;
+                }
+
+                #shopcho4 .choco3 img {
+                    width: 38%;
+                }
+
+                #shopcho4 .choco3 h5 {
+                    top: 17%;
+                    font-size: 1.6vh;
+                }
+            }
+
+/*cart*/
+
+        #cart {
+            position: relative;
+            height: 100vh;
+            background-color: white;
+        }
+
+            /*cart1*/
+
+            .cart1 {
+                float: left;
+                width: 60%;
+                margin-top: 4%;
+                
+            }   
+
+            .cart-item {
+                margin: auto;
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .border-bottom {
+                margin-left: 7%;
+                margin-right: 7%;
+            }
+
+            .item {
+                width: 100%;
+                display: inline-block;
+            }
+
+            .item h5 {
+                font-size: 1.2em;
+                margin-top: 11%;
+                margin-left: 10%;
+                float: left;
+            }
+
+            .item img{
+                float: left;
+                width: 30%;
+                text-align: center;
+            }
+
+            .cart1 h4 {
+                padding-left: 9%;
+                margin-bottom: 5%;
+                font-weight: 600;
+                font-size: 1.8vw;
+            }
+
+            .counter{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .counter .bg {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                border-radius: 5%;
+                background-color: #EFEFEF;
+                
+            }
+
+            .count{
+                font-size: 1.2em;
+                color: #202020;
+            }
+            
+            .amount{
+                font-size: 1.2em;
+                color: #202020;
+                line-height: 2;
+            }
+            
+                    @media screen and (max-width: 992px) {
+                        .cart1 {
+                            margin: 6% 0;
+                            width: 100%;
+                            height: auto;
+                        }
+
+                        .cart1 h4 {
+                            font-size: 1.5em;
+                        }
+
+                        .counter .bg {
+                            width: 40%;
+                        }
+                    }
+
+                    @media screen and (max-width: 768px) {
+
+                        .cart1 h4 {
+                            font-size: 1em;
+                        }
+
+                        .item h5 {
+                            font-size: 0.8em;
+                        }
+
+                        .counter .bg {
+                            width: 40%;
+                        }
+
+                        .amount, .count {
+                            font-size: 1em;
+                        }
+                    }
+
+                    @media screen and (max-width: 600px) {
+
+                        .cart1 h4 {
+                            font-size: 0.7em;
+                        }
+
+                        .item h5 {
+                            font-size: 0.7em;
+                        }
+
+                        .amount, .count{
+                            font-size: 0.8em;
+                        }
+                    }
+
+        
+        /*cart2*/
+
+                .cart2 {
+                    float: left;
+                    width: 40%;
+                    height: 100%;
+                    background-color: #EFEFEF;
+                    line-height: 3vw;
+                }
+                .cart2 .e { 
+                    position: absolute;
+                    top: 2.8vw;
+                    right: 4vw;
+                    font-size: 2rem;
+                }
+
+                .cart2 h4 {
+                    margin-top: 11%;
+                    margin-bottom: 8%;
+                    margin-left: 12%;
+                    font-size: 1.6vw;
+                    font-weight: 600;
+                }
+
+                .shopcart {
+                    margin-left: 12%;
+                    margin-right: 12%;
+                    padding-top: 3%;
+                }
+
+                .bg .btn {
+                    margin-left: 8%;
+                    margin-right: 8%;
+                    font-size: 1.7vw;
+                }
+
+                .btn-buy {
+                    margin-left: 12%;
+                    margin-top: 6%;
+                    border: black;
+                    background-color: black;
+                    color: white;
+                    font-size: 1.3vw;
+                    text-align: center;
+                    letter-spacing: 0.3vw;
+                    padding: 0.1em 1.2em 0.1em 1.5em; 
+                }
+
+                .btn-buy:hover {
+                    background-color: white;
+                    color: black;
+                }
+
+
+                    @media screen and (max-width: 992px) {
+                        .cart2 {
+                            width: 100%;  
+                        }
+
+                        .cart2 h4 {
+                            margin-top: 5%;
+                            margin-bottom: 4%;
+                            font-size: 1.4em;
+                        }
+
+                        .shopcart {
+                            padding-top: 2%;
+                        }
+                        
+                        .cart2 .e {
+                            font-size: 1.9em;
+                        }
+
+                        .btn-buy {
+                            font-size: 2.2vw;
+                            padding: 1em 1.5em 1em 1.5em; 
+                        }
+                    }
+
+                    @media screen and (max-width: 768px) {
+
+                        .cart2 h4 {
+                            margin-top: 8%;
+                            margin-bottom: 5%;
+                            font-size: 1em;
+                        }
+
+                        .shopcart label {
+                            font-size: 2.5vw;
+                        }
+
+                    }
+
+                    @media screen and (max-width: 600px) {
+                        .cart2 h4 {
+                            font-size: 0.7em;
+                        }
+
+                        .cart2 .e {
+                            font-size: 1.3em;
+                        }
+
+                        .btn-buy {
+                            font-size: 2.4vw;
+                            padding: 0.8em 1.5em 0.8em 1.5em; 
+                        }
+                    }
+
+            .payment-info {
+                margin-top: 5%;
+                margin-bottom: 5%;
+                border-radius: 6px;
+                color: #fff;
+                font-weight: bold
+            }
+
+            .payment-info img  {
+                width: 4vh;
+            }
+
+            label.radio {
+                cursor: pointer
+            }
+
+            label.radio input {
+                position: absolute;
+                top: 0;
+                left: 0;
+                visibility: hidden;
+                pointer-events: none
+            }
+
+            label.radio span {
+                padding: 1px 12px;
+                border: 2px solid #ada9a9;
+                display: inline-block;
+                border-radius: 3px;
+                text-transform: uppercase;
+                font-size: 1.5vh;
+                font-weight: 300
+            }
+
+            label.radio input:checked+span {
+                border-color: #fff;
+                background-color: #202020;
+                color: #fff
+            }
+
+            .shipping {
+                font-size: 1vw;
+            }
+
+            .total {
+                font-size: 1.3vw;
+            }
+
+            .total-value {
+                margin-left: 80%;
+            }
+
+                @media screen and (max-width: 992px) {
+                    .shipping {
+                        margin-bottom: 1vw;
+                        font-size: 2.4vw;
+                    }
+
+                    .total {
+                        font-size: 3.2vw;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+                    .payment-info img  {
+                        width: 2.8vh;
+                    }
+                }
+
+/*recipes*/
+
+        #recipes{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background-color: #EFEFEF;
+            align-items: center;
+            text-align: center;
+        }
+
+        #recipes .c {
+            text-align: left;
+        }
+
+        #recipes h3 {
+            padding-top: 7%;
+            margin-bottom: 3%;
+            font-size: 2.5vw;
+        }
+
+        #recipes a {
+            color: #202020;
+        }
+
+        .container-fluid {
+            max-width: 1200px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            max-height: 45vh;
+            object-fit: cover;
+        }
+
+        .card-text {
+            font-size: 2.4vh;
+        }
+
+            @media screen and (max-width: 992px) {
+                #recipes h3{
+                    font-size: 2.7vh;
+                    margin-bottom: 8%;
+                    padding-top: 12%;
+                }
+
+                .card-img-top {
+                    max-height: 20vh
+                } 
+
+                .card-text {
+                    font-size: 1.8vh;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+
+                .card-img-top {
+                    max-height: 18vh
+                } 
+            }
+
+            @media screen and (max-width: 600px) {
+
+                .card-img-top {
+                    max-height: 15vh
+                } 
+            }
+
+        #menu1 {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+
+        #menu1 .text1 {
+            position: relative;
+            margin-left: 7%;
+            text-align: justify;
+        }
+
+        #menu1 .text2 {
+            position: relative;
+            margin: 0 7%;
+            text-align: justify;
+        }
+
+        #menu1 .text1, .text2 {
+            font-size: 1.2vw;
+            line-height: 2.4vw;
+        }
+
+        #menu1 h4 {
+            padding-top: 8%;
+            padding-bottom: 2%;
+            text-align: center;
+            font-size: 2.3vw;
+        }
+
+        #menu1 h5 {
+            font-size: 1.5vw;
+        }
+
+        .pic .e img{
+            width: 100%;
+            margin-top: 10%;
+        }
+
+            @media screen and (max-width: 992px) {
+                #menu1 h4{
+                    font-size: 2.6vh;
+                    margin-bottom: 6%;
+                }
+
+                #menu1 h5{
+                    font-size: 1.8vh;
+                }
+
+                #menu1 .text1, .text2 {
+                    font-size: 1.6vh;
+                    line-height: 2.3vh;
+                }
+
+                #menu1 .text2 {
+                    margin-top: 8%;
+                }
+
+                .pic .e img{
+                    width: 120%;
+                    top: 10%;
+                    margin-left: 7%;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                #menu1 h4{
+                    font-size: 2.1vh;
+                    margin-bottom: 8%;
+                }
+
+                #menu1 h5{
+                    font-size: 1.5vh;
+                }
+
+                #menu1 .text1, .text2 {
+                    font-size: 1.4vh;
+                    line-height: 2vh;
+                }
+
+                #menu1 .text2 {
+                    margin-top: 10%;
+                }
+
+                .pic .e img{
+                    margin-top: 4%;
+                    width: 45%;
+                }
+            }
+
+/*footer*/
+
+        .site-footer {
+            background-color:#EFEFEF;
+            padding: 3vh 8% 1vh;
+            font-size:1.1vw;
+            color:#737373;
+        }
+
+
+        .social-icons {
+            padding-left:0;
+            margin-bottom:0;
+            list-style:none;
+            text-align:right;
+        }
+
+        .social-icons li
+        {
+            display:inline-block;
+        }
+
+
+        .social-icons a {
+            background-color:black;
+            color:#818a91;
+            font-size:2vh;
+            display:inline-block;
+            line-height:6vh;
+            width:6vh;
+            height:6vh;
+            text-align:center;
+            margin-right:8px;
+            border-radius:100%;
+            -webkit-transition:all .2s linear;
+            -o-transition:all .2s linear;
+            transition:all .2s linear
+        }
+
+        .social-icons a.facebook:hover
+        {
+            background-color:#3b5998;
+            color: white;
+        }
+        .social-icons a.twitter:hover
+        {
+            background-color:#00aced;
+            color: white;
+        }
+        .social-icons a.linkedin:hover
+        {
+            background-color: #C13584;
+            color: white;
+        }
+
+
+            @media screen and (max-width: 922px) {
+                .site-footer {
+                    font-size: 2vw;
+                }
+
+                .footer {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+
+                .social-icons {
+                    text-align: center;
+                }
+
+                .social-icons a {
+                    font-size:1.8vh;
+                    line-height:4vh;
+                    width: 4vh;
+                    height:4vh;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .site-footer {
+                    padding: 3vh 0 0.8vh;
+                    font-size: 2.2vw;
+                }
+
+                .social-icons a {
+                    font-size:1.8vh;
+                    line-height:4vh;
+                    width: 4vh;
+                    height:4vh;
+                }
+            }
+
+
